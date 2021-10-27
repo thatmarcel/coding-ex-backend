@@ -1,0 +1,17 @@
+{
+  "name": "coding-ex-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --experimental-json-modules app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "randomstring": "^1.2.1",
+    "ws": "^8.2.3"
+  },
+  "type": "module"
+}
