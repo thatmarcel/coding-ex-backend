@@ -1,8 +1,8 @@
 import { WebSocketServer } from "ws";
 import randomstring from "randomstring";
 
-import wordsFile from "./misc/words.json";
-import asciiMappingsFile from "./misc/ascii.json";
+import wordsFile from "./misc/words.json" assert {type: "json"};;
+import asciiMappingsFile from "./misc/ascii.json" assert {type: "json"};;
 
 const words = wordsFile.words;
 const asciiMappings = asciiMappingsFile.asciiMappings;
