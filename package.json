@@ -4,14 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node --experimental-json-modules app.js"
+    "start": "bun run app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "thatmarcel",
   "license": "UNLICENSED",
   "dependencies": {
-    "randomstring": "^1.2.1",
-    "ws": "^8.2.3"
+    "randomstring": "^1.3.1",
+    "ws": "^8.20.0"
   },
   "type": "module"
 }
